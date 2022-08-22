@@ -25,6 +25,6 @@ public class AppJUnit4Test {
   @Test
   public void testTrololo() throws UnsupportedEncodingException {
     App.main(new String[] {});
-    assertThat(myOut.toString(StandardCharsets.UTF_8.displayName()), containsString("yo!"));
+    assertThat(myOut.toString(StandardCharsets.UTF_8.displayName()), containsString("[1234]"));
   }
 }
